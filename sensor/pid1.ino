@@ -41,7 +41,7 @@ void setup() {
 void loop() {
 dof.readGyro();
 dof.readAccel();
-  Input1 =  dof.calcGyro(dof.gz);
+Input1 =  dof.calcGyro(dof.gz);
   
 if(Input1 > 0){
   Input1 = - Input1;
